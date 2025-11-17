@@ -1,0 +1,36 @@
+allowed_sites:
+
+  - name: NovelFull # still not running
+    domain: novelfull.net
+    base_url: https://novelfull.net
+    content_selector: ".chapter-content"   # Main chapter text
+
+  - name: lightnovelpub # dead will find replacement
+    domain: lightnovelpub.me
+    base_url: https://lightnovelpub.me
+    content_selector: ".chapter-content"   # Main chapter div
+
+  - name: ScribbleHub # error 405
+    domain: scribblehub.com
+    base_url: https://www.scribblehub.com
+    content_selector: ".chp_raw"           # Main chapter text
+
+  - name: RoyalRoad # running
+    domain: royalroad.com
+    base_url: https://www.royalroad.com
+    content_selector: ".chapter-content"   # Main chapter container
+
+  - name: WuxiaWorld # running
+    domain: wuxiaworld.com
+    base_url: https://www.wuxiaworld.com
+    content_selector: ".chapter-content"   # Main text div
+
+  - name: ReadWN # sub for https://www.fanmtl.com
+    domain: readwn.com
+    base_url: https://www.readwn.com
+    content_selector: "#chaptercontent"    # Main text div
+
+  - name: WebNovel #error 403
+    domain: webnovel.com
+    base_url: https://www.webnovel.com
+    content_selector: ".cha-words"         # Only free/unlocked chapters
